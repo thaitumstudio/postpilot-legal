@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; font-family: -apple-system, "Sukhumvit Set", "Noto Sans Thai", system-ui, sans-serif; }
+body { margin: 0; line-height: 1.65; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { font-size: 28px; margin: 24px 0 4px; }
+h2 { font-size: 18px; margin-top: 28px; }
+.muted { opacity: 0.65; margin-top: 0; }
+hr { margin: 48px 0; border: 0; border-top: 1px solid currentColor; opacity: 0.2; }
+a { color: #2f5bea; }
+@media (prefers-color-scheme: dark) { a { color: #7f9dff; } }
